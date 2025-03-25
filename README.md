@@ -24,4 +24,4 @@ python ./ResNext_v4.py
 ```
 
 ## Performance snapshot
-![alt text](leaderboard.png)
+![leaderboard.png](leaderboard.png)
