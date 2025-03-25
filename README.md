@@ -5,6 +5,7 @@ StudentID: 111550132
 Name: 張家睿
 
 ## Introduction
+Use ResNeXt as model structure, with 22 different ramdom seed to train. Than use Model Soup/Greedy Soup/Model Stock to compose a stronger model.
 #### Single model:
 * training model: [code/ResNext_v4.py](code/ResNext_v4.py)
 * testing model: [code/test_v4.py](code/test_v4.py)
