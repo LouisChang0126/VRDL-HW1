@@ -6,21 +6,21 @@ Name: 張家睿
 
 ## Introduction
 #### Single model:
-* training model: ResNext_v4.py
-* testing model: test_v4.py
-* drawing confusion matrix: confusion_matrix.py
+* training model: [code/ResNext_v4.py](code/ResNext_v4.py)
+* testing model: [code/test_v4.py](code/test_v4.py)
+* drawing confusion matrix: [code/confusion_matrix.py](code/confusion_matrix.py)
 #### compose multi models to single model:
-* model soup: model_soup.py
-* greedy soup: greedy_soup.py
-* model stock: model_stock.py
+* model soup: [code/model_soup.py](code/model_soup.py)
+* greedy soup: [code/greedy_soup.py](code/greedy_soup.py)
+* model stock: [code/model_stock.py](code/model_stock.py)
 
 ## How to install
-Download the environment.yml, execute this lines in a computer with conda.
+Download the [environment.yml](environment.yml), execute this lines in a computer with conda.
 ```
 conda env create -f environment.yml -n env
 # after creating env
 conda activate env
-python ./ResNext_v4.py
+python code/ResNext_v4.py
 ```
 
 ## Performance snapshot
